@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: fantasy;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(84, 143, 211, 0.829), rgba(199, 61, 218, 0.726));
+}
+
+header {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+li {
+    
+    padding: 5px;
+    display: inline-block;
+}
+
+a {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(125, 42, 141);
+}
+
+section {
+    position: absolute;
+    width: 1300px;
+    height: 600px;
+    background-color: rgba(0, 255, 255, 0);
+    top: 100px;
+    left: 180px;
+}
+
+div#d1{
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url(imagens/oculos3d_media_res.jpg);
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    background-color: green;
+    background-position: center center;
+    left: 300px;
+    top: 0px;
+}
+
+
+div#d2{
+    border-radius: 10px;
+    position: absolute;
+    background-image: url(imagens/scan_eye-media.jpg);
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    background-color: blue;
+    background-position: center center;
+    top: 150px;
+    left: 0px;
+    
+}
+
+div#d3{ 
+    border-radius: 10px;
+    position:absolute;
+    background-image: url(imagens/planejamento_tablet_media.jpg);
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    background-color: yellow;
+    background-position: center center;
+
+    top: 300px;
+    left: 300px;
+    bottom: 50px;
+} 
+
+div#d4 {
+    border-radius: 10px;
+    position:absolute;
+    background-image: url(imagens/homem-jogando-videogame-media.jpg);
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    background-color: yellow;
+    background-position: center center;
+
+    top: 150px;
+    left: 600px;
+} 
+
+div#d5 {
+    max-width: 400px;
+    height: 700px;
+    position:absolute;
+    top: 70px;
+    left: 1190px;
+    background-color: rgba(0, 128, 0, 0);
+}
+
+p.p2 {
+    padding: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    
+    font-weight: bolder;
+    color: rgb(68, 49, 236);
+} 
+
+
