@@ -111,10 +111,11 @@ div#d5 {
 
 p.p2 {
     padding: 15px;
+    font-size: large;
     font-family: 'Chakra Petch', sans-serif;
-    
+    line-height: 2em;
     font-weight: bolder;
-    color: rgb(68, 49, 236);
+    color: rgb(125, 42, 141);
 } 
 
 
